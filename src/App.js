@@ -1,10 +1,30 @@
 import './App.css';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
+import Header from './Components/Header/Header';
+import Home from './Components/Home/Home';
+import NoMatch from './Components/NoMatch/NoMatch';
+import LeagueDetail from './Components/LeagueDetail/LeagueDetail';
 
 function App() {
   return (
-    <div>
-
-    </div>
+    <Router>
+      <Switch>
+        <Route exact path='/'>
+          <Home></Home>
+        </Route>
+        <Route path='/league/:idLeague'>
+          <LeagueDetail></LeagueDetail>
+        </Route>
+        <Route path='*'>
+          <NoMatch></NoMatch>
+        </Route>
+      </Switch>
+    </Router>
   );
 }
 

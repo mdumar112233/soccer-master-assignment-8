@@ -1,0 +1,22 @@
+.home-container{
+    width: 80%;
+    height: auto;
+    margin-left: 10rem;
+}
+.header-title img{
+    width: 17%;
+    margin: 2rem 0 0 33rem;
+}
+
+@media screen and (max-width: 376px) {
+    .header-title img{
+        width: 45%;
+        margin: 3rem 0 0 7rem;
+    }
+}
+@media screen and (max-width: 320px) {
+    .header-title img{
+        width: 50%;
+        margin: 3rem 0 0 5rem;
+    }
+}
