@@ -2,10 +2,8 @@ import './App.css';
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
-  Link
+  Route
 } from "react-router-dom";
-import Header from './Components/Header/Header';
 import Home from './Components/Home/Home';
 import NoMatch from './Components/NoMatch/NoMatch';
 import LeagueDetail from './Components/LeagueDetail/LeagueDetail';
