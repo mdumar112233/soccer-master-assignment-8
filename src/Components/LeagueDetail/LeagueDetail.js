@@ -54,9 +54,9 @@ const LeagueDetail = () => {
             
             <p className='detail'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus tenetur quas sapiente ipsa a aspernatur vitae, impedit perspiciatis veritatis! Nobis deserunt quam dolores eius tenetur consequuntur nam ab itaque atque, maiores ducimus dicta laborum reiciendis totam autem magni et repellat nihil. Molestiae voluptatem totam neque? Suscipit nemo, ipsam quis debitis eaque beatae cum neque quibusdam architecto officiis officia, rem nesciunt quidem ullam id amet. Provident ratione quia accusantium eum error beatae aliquid, repudiandae magni rerum at fugit numquam illo delectus ipsa quibusdam praesentium ullam obcaecati deserunt commodi molestiae, ipsam incidunt labore voluptates excepturi! Necessitatibus quia aliquid, nulla labore sed vel! Ab nisi rerum sequi asperiores voluptate dignissimos sed repudiandae, cupiditate mollitia ex, vitae delectus velit autem, maxime itaque neque? Rerum? </p>
             <div className='social-icon'>
-                <span><a target='_blank' href="https://www.facebook.com/FootballWorldHD/"><img src={facebook} alt=""/></a></span>
-                <span><a target='_blank'  href="https://twitter.com/worldoffitba?lang=en"><img src={twitter} alt=""/></a></span>
-                <span><a target='_blank' href="https://www.youtube.com/channel/UC68zCuC0QGtkKD261FJ99SQ"><img src={youtube} alt=""/></a></span>
+                <span><a target='_blank' rel="noreferrer" href="https://www.facebook.com/FootballWorldHD/"><img src={facebook} alt=""/></a></span>
+                <span><a target='_blank' rel="noreferrer" href="https://twitter.com/worldoffitba?lang=en"><img src={twitter} alt=""/></a></span>
+                <span><a target='_blank' rel="noreferrer" href="https://www.youtube.com/channel/UC68zCuC0QGtkKD261FJ99SQ"><img src={youtube} alt=""/></a></span>
             </div>
         </div>
         </div>
