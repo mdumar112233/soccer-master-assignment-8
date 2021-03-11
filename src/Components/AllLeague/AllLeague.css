@@ -1,0 +1,25 @@
+.allLeague-container{
+    float: left;
+    margin: 40px 0 10px 0;
+    width: 370px;
+    text-align: center;
+}
+.card{
+    width: 22rem;
+}
+.header-title{
+    font-family: 'Volkhov', serif;
+}
+
+@media screen and (max-width: 376px){
+    .card{
+        width: 18rem;
+        margin: 0 1.6rem;
+    }
+}
+@media screen and (max-width: 320px){
+    .card{
+        width: 15rem;
+        margin: 0 1rem;
+    }
+}

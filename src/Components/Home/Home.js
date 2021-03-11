@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import AllLeague from '../AllLeague./AllLeague';
+import AllLeague from '../AllLeague/AllLeague';
 import Header from '../Header/Header';
 import './Home.css';
 
